@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee 
+         https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+    
+    <display-name>Bookstore Management System</display-name>
+    
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
+    <!-- Manager Login Servlet -->
+    <servlet>
+        <servlet-name>ManagerLoginServlet</servlet-name>
+        <servlet-class>com.bookstore.servlet.ManagerLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManagerLoginServlet</servlet-name>
+        <url-pattern>/manager-login</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Cashier Login Servlet -->
+    <servlet>
+        <servlet-name>CashierLoginServlet</servlet-name>
+        <servlet-class>com.bookstore.servlet.CashierLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CashierLoginServlet</servlet-name>
+        <url-pattern>/cashier-login</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Manager Dashboard Servlet -->
+    <servlet>
+        <servlet-name>ManagerDashboardServlet</servlet-name>
+        <servlet-class>com.bookstore.servlet.ManagerDashboardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManagerDashboardServlet</servlet-name>
+        <url-pattern>/manager-dashboard</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Cashier Dashboard Servlet -->
+    <servlet>
+        <servlet-name>CashierDashboardServlet</servlet-name>
+        <servlet-class>com.bookstore.servlet.CashierDashboardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CashierDashboardServlet</servlet-name>
+        <url-pattern>/cashier-dashboard</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Book Management Servlet -->
+    <servlet>
+        <servlet-name>BookManagementServlet</servlet-name>
+        <servlet-class>com.bookstore.servlet.BookManagementServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookManagementServlet</servlet-name>
+        <url-pattern>/book-management</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Cart Servlet -->
+    <servlet>
+        <servlet-name>CartServlet</servlet-name>
+        <servlet-class>com.bookstore.servlet.CartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartServlet</servlet-name>
+        <url-pattern>/cart</url-pattern>
+    </servlet-mapping>
+</web-app>
