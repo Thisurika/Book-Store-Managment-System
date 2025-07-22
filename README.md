@@ -1,6 +1,3 @@
-# Book-Store-Managment-System
-Little Book Heaven is a Java EE-based web app for managing a bookstore. It supports Manager and Cashier roles with features like book CRUD, category search using Merge Sort, and cart calculation. Data is stored in text files using FileHandler, with a clean and user-friendly JSP frontend.
-
 # 📚 Little Book Heaven – Bookstore Management System
 
 **Little Book Heaven** is a Java EE-based web application designed to manage a bookstore system with role-based access. Developed as part of my undergraduate studies at SLIIT, this project demonstrates strong use of Object-Oriented Programming, File Handling, and Data Structures (Merge Sort and Binary Search Tree).
@@ -92,24 +89,42 @@ Maven 3+
 Web browser
 
 🧑‍💻 Author
-Thisuru
-SLIIT Undergraduate – BSc (Hons) in Information Technology
-📧 Email: your.email@example.com
-🔗 LinkedIn: linkedin.com/in/yourprofile
+Thisurrika
+SLIIT Undergraduate – BSc (Hons) in Information Technology specialization in data science
+📧 Email: donthisurika@gmail.com
 
 📜 License
 This project is open-source and free to use for educational purposes.
 
 “First, solve the problem. Then, write the code.” – John Johnson
 
-vbnet
-Copy
-Edit
+## 🖼️ Screenshots
 
----
+### 🔐 1. Home Page – Role Selection
+![Home Page](screenshots/1.png)
 
-✅ **Next Step**:  
-- Paste this into a file named `README.md`.
-- Upload it to your GitHub repo using the **"Add file" → "Create new file"** method or by dragging and dropping.
+### 🔑 2. Manager Login Page
+![Manager Login](screenshots/2.png)
 
-Let me know if you want me to send you this as a downloadable `.md` file!
+### 🔑 3. Cashier Login Page
+![Cashier Login](screenshots/3.png)
+
+### 📊 4. Manager Dashboard
+![Manager Dashboard](screenshots/4.png)
+
+### 👥 5. Add Cashier Form
+![Add Cashier Form](screenshots/5.png)
+
+### 💼 6. Cashier Dashboard
+![Cashier Dashboard](screenshots/6.png)
+
+### ➕ 7. Add Book Form
+![Add Book Form](screenshots/7.png)
+
+### 🔍 8. Search Books by Genre (Merge Sort)
+![Search by Genre](screenshots/8.png)
+
+### 🛒 9. Shopping Cart & Total Payment
+![Cart View](screenshots/9.png)
+
+
