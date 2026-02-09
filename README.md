@@ -43,6 +43,7 @@
 
 project/
 ├── src/
+
 │ ├── model/ # Book, Cashier classes (OOP)
 │ ├── dao/ # FileHandler, BookDAO
 │ └── servlet/ # Servlet classes
