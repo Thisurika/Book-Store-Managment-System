@@ -1,4 +1,4 @@
-# 📚 Little Book Heaven – Bookstore Management System
+# Little Book Heaven – Bookstore Management System
 
 **Little Book Heaven** is a Java EE-based web application designed to manage a bookstore system with role-based access. Developed as part of my undergraduate studies at SLIIT, this project demonstrates strong use of Object-Oriented Programming, File Handling, and Data Structures (Merge Sort and Binary Search Tree).
 
@@ -50,10 +50,6 @@ project/
 ├── WEB-INF/ # web.xml
 ├── pom.xml
 └── README.md # This file
-
-yaml
-Copy
-Edit
 
 ---
 
