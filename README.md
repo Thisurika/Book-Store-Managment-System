@@ -45,11 +45,17 @@ project/
 ├── src/
 
 │ ├── model/ # Book, Cashier classes (OOP)
+
 │ ├── dao/ # FileHandler, BookDAO
+
 │ └── servlet/ # Servlet classes
+
 ├── web/ # JSP, CSS, images
+
 ├── WEB-INF/ # web.xml
+
 ├── pom.xml
+
 └── README.md # This file
 
 ---
